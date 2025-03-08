@@ -5,7 +5,7 @@ public class Caneta {
     private String cor;
 
     //--------------------------------------------------
-    public void Caneta(){
+    public Caneta(){
         //metodo construtor - tem o mesmo nome da classe
         this.tampar();
         this.cor="preto";
