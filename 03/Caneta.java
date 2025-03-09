@@ -4,7 +4,7 @@ public class Caneta {
     private boolean tampada;
     private String cor;
 
-    //--------------------------------------------------
+    //------------------metodo construtor--------------------------------
     public Caneta(){
         //metodo construtor - tem o mesmo nome da classe
         this.tampar();
@@ -15,7 +15,7 @@ public class Caneta {
     public void tampar(){
         this.tampada=true;
     }
-    //--------------------------------------------------------
+    //-----------------------get/set---------------------------------
     public String getModelo(){
         /*não pode ser [void] porque retorna um modelo -> tem que ser [String]
         para retornar uma [String] */
