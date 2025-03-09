@@ -8,10 +8,11 @@ public class Caneta {
     public Caneta(String m, String c, float p){
         //adição de parametros [ String m, String c, float p ]
         //metodo construtor - tem o mesmo nome da classe
+        
         this.modelo=m;
         this.cor=c;
-        this.tampar();
-        // quando o objeto [Caneta] for criado, estará tampado e será preto
+        this.ponta=p;
+        this.tampar(); // quando o objeto [Caneta] for criado, estará tampado
     }
 
     public void tampar(){
