@@ -1,0 +1,21 @@
+Encapsulamento
+> tem o mesmo padrão
+> protege o código do usuário e o usuário do código
+
+> uso de comandos-padrão
+> mensagem = troca de informação entre o mundo externo e o objeto
+
+> programa precisa receber uma mensagem do objeto sem ter que saber como o objeto funcionar
+> interface = contato que o objeto tem com o mundo exterior – define o que pode ser feito com o objeto dessa classe
+
+> usado para criar classes mais eficientes
+> dentro da interface só existem metodos → não inclui atributos
+
+> os métodos são abstratos = não vai ser desenvolvido na interface
+  » só será informado que o método vai existir e a sua reação
+> todos os métodos são publicos
+
+> os atributos e métodos serão desenvolvidos na classe
+  » atributos serão protegidos ou privados
+> para uma classe [c1] inplementar com um atributo abstrato a outra classe [c2] = plublic class c1 implements c2
+  ex: controle remoto com as opções de ligar, desligar, abrir/fechar menu, mais/menos volume, …
