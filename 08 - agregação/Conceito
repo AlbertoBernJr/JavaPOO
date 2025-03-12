@@ -1,0 +1,15 @@
+Agregação
+> objetos diferentes que têm a mesma classe, atributos e métodos
+	ex: os 2 objetos [lutador] tem nome, nacionalidade, idade, vitorias, …
+
+ex: criação de outra classe para os lutadores lutarem entre si
+	» atributos privados
+	» métodos públicos
+	» atributos abstratos porque vêm de outra classe
+	» os objetos de uma classe estão ligados a outra
+	» lutas somente entre a mesma categoria
+	» não deixar lutar 1 lutador contra si mesmo
+	» luta só ocorrerá se estiver sido aprovada
+
+> os objetos da classe [Lutador] podem fazer parte das ações da classe [Luta]
+> 1 lutador pode disputar nenhuma ou várias lutas [0*..] e 1 luta pode ser disputada por vários lutadores
