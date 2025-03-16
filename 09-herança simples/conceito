@@ -1,0 +1,10 @@
+Herança
+> pode-se fazer herança sem encapsulamento
+> uma sub-classe consegue usar os atributos de uma super-classe
+> uma nova classe é criada se baseando na classe já existente → a nova classe não é criada do zero
+> a super-classe compartilha todos os seus atributos e métodos com as sub-classes ligadas a ela
+> a super-classe tem os métodos e atributos que são comuns as outras sub-classes
+> usar o comando [extends <super-classe>] na sub-classe
+
+ex: criação de uma super-classe [Pessoas], com atributos: nome, idade, sexo; Métodos: fazer aniversario
+	» as outras sub-classes serão: aluno, professor, funcionário
