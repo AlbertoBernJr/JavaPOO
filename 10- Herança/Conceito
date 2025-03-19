@@ -1,0 +1,24 @@
+Herança
+> pode-se fazer herança sem encapsulamento
+> uma sub-classe consegue usar os atributos de uma super-classe
+> uma nova classe é criada se baseando na classe já existente → a nova classe não é criada do zero
+> a super-classe compartilha todos os seus atributos e métodos com as sub-classes ligadas a ela
+> a super-classe tem os métodos e atributos que são comuns as outras sub-classes
+> usar o comando [extends <super-classe>] na sub-classe
+
+ex: criação de uma super-classe [Pessoas], com atributos: nome, idade, sexo; Métodos: fazer aniversario
+	» as outras sub-classes serão: aluno, professor, funcionário
+
+> [classe-raiz] = classe que não tem uma super-classe
+> [classe-folha] = sub-classes que não tem classe-filha → classe final
+> [generalização] = percorer a arvore de herança do final para cima
+> [especialização] = percorrer a arvore de herança de cima para baixo
+> [herança de implementação] = herda todos os métodos/atributos da super-classe e não adiciona mais 
+  informações
+	» usado para criar uma classe abstrata
+
+> [herança para diferença] = herdar os metodos/attributos da super-classe e adicionar outros
+> [classe abstrata] = não pode gerar objetos e nem sub-classes
+> [metodo abstrato] = só pode ser adicionado a uma interface ou classe abstrata
+> [classe final] = não pode ter filhos → obrigatoriamente uma folha
+> [metodo final] = não pode ser sobreposto (override) → é obrigatório ser herdado pelas suas sub-classes
