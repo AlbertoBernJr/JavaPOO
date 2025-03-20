@@ -1,0 +1,6 @@
+TreeMap
+- ordena os elementos pelo valor da chave
+- por padrão, as chaves são ordenadas em ordem crescente
+- a ordem pode ser alterada usando o [comparator]
+- chaves são únicas
+- não permite chaves nulas -> tem que usar o [comparator] para lidar com valores nulos
