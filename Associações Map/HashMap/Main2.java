@@ -21,6 +21,7 @@ import java.util.*;
             }
             
             // para saber a quantidade de elementos mapeados:
+            //[size()] = saber o numero de elementos
             System.out.println("Quantidade de elementos mapeados: " + hashMap.size());
         }
     }
