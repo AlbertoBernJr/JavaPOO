@@ -1,0 +1,3 @@
+LinkedHashMap
+- Mantém a ordem de inserção dos elementos, combinando características de [HashMap] e uma lista encadeada
+- sempre registra o valor que vem antes e o que vem depois
