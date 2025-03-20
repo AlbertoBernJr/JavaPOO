@@ -11,5 +11,8 @@ public class Main2{
         treeMap.put("Laranja", 8);
 
         System.out.println(treeMap);
+
+        //acessar valores usando a chave
+        System.out.println("Quantidade de Maçãs: " + treeMap.get("Maçã")); // Saída: 10
     }
 }
