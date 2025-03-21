@@ -68,6 +68,8 @@ public class Main {
         grupoTrabalho.clear();
         
         System.out.println(" Número de elementos do grupo:" + grupoTrabalho.size());
+        
         sc.close();
+        //[sc.close()] = fecha o objeto [Scanner], liberando os recursos associados a ele
     }
 }
