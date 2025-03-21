@@ -1,0 +1,31 @@
+Classe ArrayList
+- é uma lista redimensionável = seu tamanho pode aumentar ou diminuir
+- elementos são ordenados na ordem em que são armazenados
+- os elementos podem ser acessados pelo índice
+- permite elementos repetidos e nulos (null)
+
+Adicionar elementos: 
+- [ .add(<elemento>) ] = Adiciona um elemento ao final da lista.
+
+- [ .add(<índice>, <elemento>) ] =  Adiciona um elemento em uma posição (índice) específica.
+
+Acessar elementos:
+- [ .get(<índice>) ] = retorna o elemento na posição especificada
+
+Substitui um elemento x por outro y:
+- [ .set(<index>, <elemento y>) ] = substitui um elemento x por outro y em determinada posição (index)
+
+Remover elementos:
+- [ .remove(<índice>) ] = Remove o elemento na posição especificada.
+- [ .remove(<elemento>) ] = Remove a primeira ocorrência do elemento especificado.
+
+Verificar se o elemento esta na lista:
+- [ contains(<elemento>) ] = Retorna [true] se a lista contiver o elemento especificado.
+Verificar tamanho:
+- [ .size() ] = Retorna o número de elementos na lista
+
+Verificar se esta vazio:
+- [ isEmpty() ] = Retorna [ true ] se a lista estiver vazia.
+
+Limpar lista:
+- [ clear() ] = Remove todos os elementos da lista
