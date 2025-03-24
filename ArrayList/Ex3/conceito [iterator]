@@ -1,0 +1,10 @@
+Iterator
+- padrão de design (e uma interface) que permite percorrer (iterar) os elementos de uma coleção 
+  (como List, Set, Map, etc.) de forma segura e eficiente, sem precisar saber como a coleção está 
+  implementada internamente.
+
+Para que serve?
+- Percorrer coleções sem usar índices (útil para listas, conjuntos, etc.).
+- Remover elementos com segurança durante a iteração (evitando erros como ConcurrentModificationException).
+- Ocultar a estrutura interna da coleção (o Iterator sabe como acessar os elementos, 
+  mesmo que a coleção seja complexa).
