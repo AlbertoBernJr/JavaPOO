@@ -1,0 +1,3 @@
+Polimorfismo de sobreposição = [ Override ]
+- substituição do método da super-classe na sub-classe usando a mesma assinatura
+- feito em classes diferentes
