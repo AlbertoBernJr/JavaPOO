@@ -1,0 +1,8 @@
+Generics
+- recurso do Java que permite criar classes, interfaces e métodos que podem trabalhar com diferentes tipos de dados
+- Generics usa parâmetros de tipo (como <T>, <K>, <V>) para representar tipos genéricos.
+- Com Generics, você coloca um rótulo na caixa dizendo o que ela guarda.
+
+Limitações
+- Não funciona com tipos primitivos (use Integer, Double, etc.).
+- Não é possível criar arrays genéricos (new T[10] não funciona).
