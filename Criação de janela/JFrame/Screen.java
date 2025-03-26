@@ -14,7 +14,7 @@ public class Screen {
 
         jFrame.setVisible(true); //modo padrão bem [false] = janela fica invisivel
         jFrame.setTitle("Classe Screen"); // Define o título da janela
-        jFrame.setSize(400, 150); // Define o tamanho da janela 400x150
+        jFrame.setSize(300, 150); // Define o tamanho da janela 400x150
         jFrame.setLocationRelativeTo(null); // Define a localização da janela no meio da  tela
 
         jFrame.setResizable(false); // Desabilita a possibilidade de alterar o tamanho da tela
