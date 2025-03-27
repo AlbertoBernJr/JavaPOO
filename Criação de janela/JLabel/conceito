@@ -5,3 +5,8 @@ JLabel:
   mostrar informações estáticas (não editáveis pelo usuário)
 - O usuário não pode modificar o conteúdo do JLabel diretamente (diferente de um JTextField, por 
   exemplo).
+
+JLabel uso:
+- Para rótulos em formulários (ex.: "Nome:", "E-mail:").
+- Para exibir mensagens estáticas (como títulos ou instruções).
+- Para mostrar ícones ou imagens (como logotipos ou avisos).
