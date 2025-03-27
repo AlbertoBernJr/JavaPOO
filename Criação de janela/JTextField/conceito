@@ -1,0 +1,4 @@
+JTextField
+- Exibe o texto digitado normalmente.
+- Pode ser usado para coletar qualquer tipo de informação (números, textos, etc.).
+- Permite formatação e validação de entrada.
