@@ -1,0 +1,7 @@
+JLabel:
+- É um componente da biblioteca Swing do Java, usado para exibir textos, imagens ou ambos em uma 
+  interface gráfica (GUI). 
+- Ele é um dos elementos mais básicos e essenciais para criar interfaces de usuário, pois permite
+  mostrar informações estáticas (não editáveis pelo usuário)
+- O usuário não pode modificar o conteúdo do JLabel diretamente (diferente de um JTextField, por 
+  exemplo).
