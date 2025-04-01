@@ -1,0 +1,4 @@
+- Campo de texto que oculta caracteres (usado para senhas).
+- Substitui os caracteres digitados por [•], [*] ou outro símbolo (dependendo do sistema).
+- Ideal para senhas ou dados sensíveis.
+- Método getPassword() retorna um array de char (mais seguro que String para senhas).
