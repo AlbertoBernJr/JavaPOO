@@ -1,0 +1,38 @@
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class ExemploJButton {
+    public static void iniciarGUI() {
+        // Cria uma janela
+        JFrame frame = new JFrame("Exemplo JButton");
+
+        //parar o programa quando clicar no X da janela
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        //tamanho da janela
+        frame.setSize(300, 100);
+
+        // Cria um botão
+        JButton botao = new JButton("Clique Aqui");
+
+        // Adiciona um ActionListener para detectar cliques
+        botao.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //mostrará outra janela informando que [ Botão clicado ]
+                JOptionPane.showMessageDialog(frame, "Botão clicado!");
+            }
+        });
+
+        // Adiciona o botão à janela
+        frame.add(botao);
+
+        // Exibe a janela
+        frame.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        iniciarGUI();
+    }
+}
