@@ -1,0 +1,4 @@
+- pertence a biblioteca [Swing] de java
+- ativação de outros comandos
+- detecta cliques através do [ ActionListener ]
+- criação básica de um botão [Clique aqui] = JButton meuBotao = new JButton("Clique Aqui");
